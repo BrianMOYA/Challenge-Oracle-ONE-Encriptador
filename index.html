@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto JavaScript</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./Imagenes/Logo.svg" alt="logoAlura">
+    </header>
+    <main>
+       <div class="container">
+            <div class="encrypt">
+                <textarea name="text" class="text" id="text" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+            </div>
+            <div class="condition">
+                <img src="./Imagenes/alerta.svg" alt="alerta-texto">
+                <p class="alerta">Solo letras minúsculas y sin acéntos</p>
+            </div>
+            <div class="buttons">
+                <input type="button" id="btnEncrypt" class="btn-encrypt" value="Encriptar!">
+                <input type="button" id="btnDecrypt"  class="btn-decrypt" value="Desencriptar!">
+            </div>
+       </div>
+       <div class="container2">
+            <img id="munhecoAlura" class="munhecoAlura" src="./Imagenes/Munheco.svg" alt="munheco-alura">
+            <div id="message" class="message">
+                <textarea id="messageTitle" class="messageTitle" placeholder="Ningún mensaje encontrado"></textarea>
+                <p id="paragraph" class="paragraph">Ingresa el texto que deseas encriptar o desencripar</p>
+                <button id="copyButton" class="btn-copy hide">Copiar</button>
+            </div>
+       </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>

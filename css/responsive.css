@@ -1,0 +1,75 @@
+@media (max-width: 57.5em) {
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .encrypt{
+        width: 100%;
+    }
+
+    .text{
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+
+    .condition{
+        width: 80%;
+        left: 10%;
+        top: 67%;
+    }
+
+    .condition p{
+        font-size: 16px;
+    }
+
+    .buttons{
+        width: 80%;
+        left: 10%;
+        top: 70%;
+    }
+
+    .btn-encrypt, .btn-decrypt{
+        width: 48%;
+        border-radius: 16px;
+        
+    }
+
+   .btn-encrypt:hover, .btn-decrypt:hover, .btn-copy:hover{
+        margin: 0.3%;
+        width: 50.5%;
+        padding: 1.8%;
+    }
+
+   .container2{
+       width: 80%;
+       height: 30%;
+       left: 10%;
+       top: 80%;
+    }
+
+    .container2 img{
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+    
+    .message{
+        width: 100%;
+        top: 6%;
+    }
+
+    .message .messageTitle{
+        width: 80%;
+        font-size: 19px;
+        height: 90px;
+        margin: 0px 0px 30px 0px;
+    }
+    
+    .message .btn-copy{
+        height: auto;
+        margin-top: 40px;
+    }
+}
